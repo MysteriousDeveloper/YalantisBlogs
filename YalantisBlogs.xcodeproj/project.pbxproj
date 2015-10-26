@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4242716715866124E22680E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09E3543F485E1AF9BE343D /* libPods.a */; };
+		5710F9E21BD994E8008B5FF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710F9E11BD994E8008B5FF0 /* main.m */; };
+		5710F9E51BD994E8008B5FF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710F9E41BD994E8008B5FF0 /* AppDelegate.m */; };
+		5710F9E81BD994E8008B5FF0 /* ISMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5710F9E71BD994E8008B5FF0 /* ISMainViewController.m */; };
+		5710F9EB1BD994E8008B5FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5710F9E91BD994E8008B5FF0 /* Main.storyboard */; };
+		5710F9ED1BD994E8008B5FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5710F9EC1BD994E8008B5FF0 /* Assets.xcassets */; };
+		5710F9F01BD994E8008B5FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5710F9EE1BD994E8008B5FF0 /* LaunchScreen.storyboard */; };
+		5762CDFB1BDCF2AD00621F7F /* ISBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762CDFA1BDCF2AD00621F7F /* ISBlogViewController.m */; };
+		5762CE041BDD924700621F7F /* ISAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762CE031BDD924700621F7F /* ISAlertHelper.m */; };
+		5762CE071BDD97B000621F7F /* ISBlog+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5762CE061BDD97B000621F7F /* ISBlog+Mapping.m */; };
+		57A1C0041BDC343F00992B52 /* yalantis.json in Resources */ = {isa = PBXBuildFile; fileRef = 57A1C0031BDC343F00992B52 /* yalantis.json */; };
+		57A1C0091BDC3CD000992B52 /* ISAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1C0081BDC3CD000992B52 /* ISAPIManager.m */; };
+		57A1C00C1BDC3F3100992B52 /* ISBlogsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1C00B1BDC3F3100992B52 /* ISBlogsManager.m */; };
+		57A1C0111BDC404200992B52 /* ISBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1C0101BDC404200992B52 /* ISBlog.m */; };
+		57A1C0191BDC4EA000992B52 /* ISBlogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1C0171BDC4EA000992B52 /* ISBlogCell.m */; };
+		57A1C01A1BDC4EA000992B52 /* ISBlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A1C0181BDC4EA000992B52 /* ISBlogCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30A380F6F0C9E8379E0ADBEB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5710F9DD1BD994E8008B5FF0 /* YalantisBlogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YalantisBlogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5710F9E11BD994E8008B5FF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5710F9E31BD994E8008B5FF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5710F9E41BD994E8008B5FF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5710F9E61BD994E8008B5FF0 /* ISMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISMainViewController.h; sourceTree = "<group>"; };
+		5710F9E71BD994E8008B5FF0 /* ISMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISMainViewController.m; sourceTree = "<group>"; };
+		5710F9EA1BD994E8008B5FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5710F9EC1BD994E8008B5FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/EgorSobko/Documents/Yalantis/Blogs/YalantisBlogs/YalantisBlogs/Assets.xcassets; sourceTree = "<absolute>"; };
+		5710F9EF1BD994E8008B5FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5710F9F11BD994E8008B5FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = YalantisBlogs/Info.plist; sourceTree = "<group>"; };
+		5762CDF91BDCF2AD00621F7F /* ISBlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBlogViewController.h; sourceTree = "<group>"; };
+		5762CDFA1BDCF2AD00621F7F /* ISBlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISBlogViewController.m; sourceTree = "<group>"; };
+		5762CE021BDD924700621F7F /* ISAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAlertHelper.h; sourceTree = "<group>"; };
+		5762CE031BDD924700621F7F /* ISAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAlertHelper.m; sourceTree = "<group>"; };
+		5762CE051BDD97B000621F7F /* ISBlog+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ISBlog+Mapping.h"; sourceTree = "<group>"; };
+		5762CE061BDD97B000621F7F /* ISBlog+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ISBlog+Mapping.m"; sourceTree = "<group>"; };
+		57A1C0031BDC343F00992B52 /* yalantis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = yalantis.json; path = /Users/EgorSobko/Documents/Yalantis/Blogs/YalantisBlogs/YalantisBlogs/Resources/yalantis.json; sourceTree = "<absolute>"; };
+		57A1C0071BDC3CD000992B52 /* ISAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAPIManager.h; sourceTree = "<group>"; };
+		57A1C0081BDC3CD000992B52 /* ISAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAPIManager.m; sourceTree = "<group>"; };
+		57A1C00A1BDC3F3100992B52 /* ISBlogsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBlogsManager.h; sourceTree = "<group>"; };
+		57A1C00B1BDC3F3100992B52 /* ISBlogsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISBlogsManager.m; sourceTree = "<group>"; };
+		57A1C00F1BDC404200992B52 /* ISBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBlog.h; sourceTree = "<group>"; };
+		57A1C0101BDC404200992B52 /* ISBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISBlog.m; sourceTree = "<group>"; };
+		57A1C0121BDC468200992B52 /* ISBlogsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBlogsProvider.h; sourceTree = "<group>"; };
+		57A1C0161BDC4EA000992B52 /* ISBlogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISBlogCell.h; sourceTree = "<group>"; };
+		57A1C0171BDC4EA000992B52 /* ISBlogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISBlogCell.m; sourceTree = "<group>"; };
+		57A1C0181BDC4EA000992B52 /* ISBlogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISBlogCell.xib; sourceTree = "<group>"; };
+		9C09E3543F485E1AF9BE343D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB51FA35F98C8E3B2F7C6022 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5710F9DA1BD994E8008B5FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4242716715866124E22680E4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C25B53B9D93AAC2B2980107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C09E3543F485E1AF9BE343D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B67F014E596432365D9F55A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A380F6F0C9E8379E0ADBEB /* Pods.debug.xcconfig */,
+				AB51FA35F98C8E3B2F7C6022 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5710F9D41BD994E8008B5FF0 = {
+			isa = PBXGroup;
+			children = (
+				5710F9DF1BD994E8008B5FF0 /* YalantisBlogs */,
+				5710F9DE1BD994E8008B5FF0 /* Products */,
+				2B67F014E596432365D9F55A /* Pods */,
+				0C25B53B9D93AAC2B2980107 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5710F9DE1BD994E8008B5FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5710F9DD1BD994E8008B5FF0 /* YalantisBlogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5710F9DF1BD994E8008B5FF0 /* YalantisBlogs */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C0131BDC4E4100992B52 /* UI */,
+				57A1C00D1BDC401100992B52 /* Model */,
+				57A1C0051BDC3BF400992B52 /* Logic */,
+				57A1C0021BDC342700992B52 /* Resources */,
+				5710F9E31BD994E8008B5FF0 /* AppDelegate.h */,
+				5710F9E41BD994E8008B5FF0 /* AppDelegate.m */,
+				5710F9E91BD994E8008B5FF0 /* Main.storyboard */,
+				5710F9EE1BD994E8008B5FF0 /* LaunchScreen.storyboard */,
+				5710F9E01BD994E8008B5FF0 /* Supporting Files */,
+			);
+			path = YalantisBlogs;
+			sourceTree = "<group>";
+		};
+		5710F9E01BD994E8008B5FF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5710F9E11BD994E8008B5FF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5762CDFC1BDCFEC100621F7F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5762CDFE1BDCFEEB00621F7F /* ISBlogViewController */,
+				5762CDFD1BDCFEDD00621F7F /* ISMainViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5762CDFD1BDCFEDD00621F7F /* ISMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5710F9E61BD994E8008B5FF0 /* ISMainViewController.h */,
+				5710F9E71BD994E8008B5FF0 /* ISMainViewController.m */,
+			);
+			name = ISMainViewController;
+			sourceTree = "<group>";
+		};
+		5762CDFE1BDCFEEB00621F7F /* ISBlogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5762CDF91BDCF2AD00621F7F /* ISBlogViewController.h */,
+				5762CDFA1BDCF2AD00621F7F /* ISBlogViewController.m */,
+			);
+			name = ISBlogViewController;
+			sourceTree = "<group>";
+		};
+		5762CE001BDD920D00621F7F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5762CE011BDD922900621F7F /* ISAlertHelper */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5762CE011BDD922900621F7F /* ISAlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5762CE021BDD924700621F7F /* ISAlertHelper.h */,
+				5762CE031BDD924700621F7F /* ISAlertHelper.m */,
+			);
+			name = ISAlertHelper;
+			sourceTree = "<group>";
+		};
+		57A1C0021BDC342700992B52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5710F9F11BD994E8008B5FF0 /* Info.plist */,
+				5710F9EC1BD994E8008B5FF0 /* Assets.xcassets */,
+				57A1C0031BDC343F00992B52 /* yalantis.json */,
+			);
+			name = Resources;
+			path = ../../../GitBlogs/YalantisBlogs/Resources;
+			sourceTree = "<group>";
+		};
+		57A1C0051BDC3BF400992B52 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5762CE001BDD920D00621F7F /* Helpers */,
+				5762CDFC1BDCFEC100621F7F /* Controllers */,
+				57A1C0061BDC3C9F00992B52 /* Managers */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		57A1C0061BDC3C9F00992B52 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C0121BDC468200992B52 /* ISBlogsProvider.h */,
+				57A1C0071BDC3CD000992B52 /* ISAPIManager.h */,
+				57A1C0081BDC3CD000992B52 /* ISAPIManager.m */,
+				57A1C00A1BDC3F3100992B52 /* ISBlogsManager.h */,
+				57A1C00B1BDC3F3100992B52 /* ISBlogsManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		57A1C00D1BDC401100992B52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C00E1BDC402900992B52 /* ISBlog */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57A1C00E1BDC402900992B52 /* ISBlog */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C00F1BDC404200992B52 /* ISBlog.h */,
+				57A1C0101BDC404200992B52 /* ISBlog.m */,
+				5762CE051BDD97B000621F7F /* ISBlog+Mapping.h */,
+				5762CE061BDD97B000621F7F /* ISBlog+Mapping.m */,
+			);
+			name = ISBlog;
+			sourceTree = "<group>";
+		};
+		57A1C0131BDC4E4100992B52 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C0141BDC4E5500992B52 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		57A1C0141BDC4E5500992B52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C0151BDC4E6E00992B52 /* ISBlogCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57A1C0151BDC4E6E00992B52 /* ISBlogCell */ = {
+			isa = PBXGroup;
+			children = (
+				57A1C0161BDC4EA000992B52 /* ISBlogCell.h */,
+				57A1C0171BDC4EA000992B52 /* ISBlogCell.m */,
+				57A1C0181BDC4EA000992B52 /* ISBlogCell.xib */,
+			);
+			name = ISBlogCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5710F9DC1BD994E8008B5FF0 /* YalantisBlogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5710F9F41BD994E8008B5FF0 /* Build configuration list for PBXNativeTarget "YalantisBlogs" */;
+			buildPhases = (
+				F65B4774D9C69324E6B1A088 /* Check Pods Manifest.lock */,
+				5710F9D91BD994E8008B5FF0 /* Sources */,
+				5710F9DA1BD994E8008B5FF0 /* Frameworks */,
+				5710F9DB1BD994E8008B5FF0 /* Resources */,
+				E3E3BA1D89E07F92E53B7D29 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YalantisBlogs;
+			productName = YalantisBlogs;
+			productReference = 5710F9DD1BD994E8008B5FF0 /* YalantisBlogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5710F9D51BD994E8008B5FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Egor Sobko";
+				TargetAttributes = {
+					5710F9DC1BD994E8008B5FF0 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5710F9D81BD994E8008B5FF0 /* Build configuration list for PBXProject "YalantisBlogs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5710F9D41BD994E8008B5FF0;
+			productRefGroup = 5710F9DE1BD994E8008B5FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5710F9DC1BD994E8008B5FF0 /* YalantisBlogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5710F9DB1BD994E8008B5FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5710F9F01BD994E8008B5FF0 /* LaunchScreen.storyboard in Resources */,
+				5710F9ED1BD994E8008B5FF0 /* Assets.xcassets in Resources */,
+				57A1C0041BDC343F00992B52 /* yalantis.json in Resources */,
+				57A1C01A1BDC4EA000992B52 /* ISBlogCell.xib in Resources */,
+				5710F9EB1BD994E8008B5FF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3E3BA1D89E07F92E53B7D29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F65B4774D9C69324E6B1A088 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5710F9D91BD994E8008B5FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5762CE071BDD97B000621F7F /* ISBlog+Mapping.m in Sources */,
+				5762CDFB1BDCF2AD00621F7F /* ISBlogViewController.m in Sources */,
+				5710F9E81BD994E8008B5FF0 /* ISMainViewController.m in Sources */,
+				57A1C0111BDC404200992B52 /* ISBlog.m in Sources */,
+				5762CE041BDD924700621F7F /* ISAlertHelper.m in Sources */,
+				5710F9E51BD994E8008B5FF0 /* AppDelegate.m in Sources */,
+				57A1C0191BDC4EA000992B52 /* ISBlogCell.m in Sources */,
+				57A1C00C1BDC3F3100992B52 /* ISBlogsManager.m in Sources */,
+				57A1C0091BDC3CD000992B52 /* ISAPIManager.m in Sources */,
+				5710F9E21BD994E8008B5FF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5710F9E91BD994E8008B5FF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5710F9EA1BD994E8008B5FF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5710F9EE1BD994E8008B5FF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5710F9EF1BD994E8008B5FF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5710F9F21BD994E8008B5FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5710F9F31BD994E8008B5FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5710F9F51BD994E8008B5FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A380F6F0C9E8379E0ADBEB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisBlogs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YalantisBlogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5710F9F61BD994E8008B5FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB51FA35F98C8E3B2F7C6022 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisBlogs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.YalantisBlogs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5710F9D81BD994E8008B5FF0 /* Build configuration list for PBXProject "YalantisBlogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5710F9F21BD994E8008B5FF0 /* Debug */,
+				5710F9F31BD994E8008B5FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5710F9F41BD994E8008B5FF0 /* Build configuration list for PBXNativeTarget "YalantisBlogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5710F9F51BD994E8008B5FF0 /* Debug */,
+				5710F9F61BD994E8008B5FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5710F9D51BD994E8008B5FF0 /* Project object */;
+}

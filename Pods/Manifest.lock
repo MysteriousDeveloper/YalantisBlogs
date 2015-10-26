@@ -1,0 +1,30 @@
+PODS:
+  - FastEasyMapping (1.0)
+  - OHHTTPStubs (4.4.0):
+    - OHHTTPStubs/Default (= 4.4.0)
+  - OHHTTPStubs/Core (4.4.0)
+  - OHHTTPStubs/Default (4.4.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.4.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.4.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.4.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - FastEasyMapping (~> 1.0)
+  - OHHTTPStubs (= 4.4)
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  FastEasyMapping: f5ecdce05f39595aa921275d6bbaf4fb8aa60d89
+  OHHTTPStubs: 1a95a653b78287a1fdb44eb38364b43257ac3550
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+
+COCOAPODS: 0.38.2
